@@ -4,6 +4,6 @@ layout: default
 
 ## Welcome to another page
 
-_yay_
+![]({{ site.github.url }}/CV/CV_LizhiZeng.pdf)
 
 [back](./index)
