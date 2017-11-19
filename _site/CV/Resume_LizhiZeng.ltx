@@ -1,0 +1,158 @@
+\documentclass[letterpaper 12pt]{article}
+%-----------------------------------------------------------
+\usepackage[top=1 in, bottom=1in, left=0.33in, right=0.63in]{geometry}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{helvet}
+\usepackage{tabularx}
+\usepackage{color}
+\selectfont
+
+\usepackage[T1]{fontenc}
+\usepackage
+%[ansinew]
+[utf8]
+{inputenc}
+
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.75}
+\textheight=9.0in
+\raggedbottom
+
+\setlength{\tabcolsep}{0in}
+\newcommand{\isep}{-2 pt}
+\newcommand{\lsep}{-0.185cm}
+\newcommand{\psep}{-0.6cm}
+\renewcommand{\labelitemii}{$\circ$}
+
+\pagestyle{empty}
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\small \vspace{11pt} \colorbox{mygrey}{\begin{minipage}{0.97\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[3]{
+\begin{tabular*}{6.62in}{l @{\extracolsep{\fill}} r}
+	\textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \\
+\end{tabular*}\vspace{-8pt}}
+%-----------------------------------------------------------
+
+\begin{document}
+
+\begin{center}
+\Huge\textbf{LIZHI ZENG}\\[0.3cm]
+\normalsize
+\indent E-mail: lizhizeng@ucla.edu \qquad Website: {\color{blue}https://lizhiz.github.io} \qquad Skype: lizhi\_zeng@hotmail.com\\[0.1cm]
+\end{center}
+
+%------------------------ Education
+\resheading{EDUCATION}\\[\lsep]
+\begin{itemize}
+\item \noindent  \textbf{MSc, Electrical Engineering, University of California, Los Angeles}, United States \hfill 03/2017\\
+Area of Focus: Machine Learning, Optimization\\
+Main Courses: Linear Programming, Pattern Recognition \& Machine Learning, Stats Programming.
+\item \noindent  \textbf{BEng, Automation, Guangdong University of Technology}, China \hfill 07/2015\\
+Area of Focus: Signal Processing, Optimization\\
+Main Courses: Program Design, Discrete Mathematics, Data Structure, Signals and Linear Systems.
+\item \noindent  \textbf{Exchange Program, University of California, Berkeley}, United States \hfill Winter 2013
+\end{itemize}
+
+%------------------------- Skills
+\resheading{TECHNICAL SKILLS}\\[\lsep]
+\begin{itemize}
+\item \noindent \textbf{Basics:} Python, R, Matlab, SQL, Java, C/C++, Linux \hfill \textbf{Data:} MySQL, SQLite, HDFS, MapReduce\\
+\textbf{Toolkit:} Scikit-learn, Numpy, Pandas, NLTK, pickle, Matplotlib \hfill \textbf{Other:} Git, \LaTeX, Tableau, Microsoft Office
+\end{itemize}
+
+%-------------------------- Research Experience
+\resheading{RESEARCH EXPERIENCES}\\[\lsep]
+\begin{itemize}
+\item \noindent \textbf{Research Associate, Cedars-Sinai Medical Center}, Los Angeles, United States \hfill 07/2016 - 03/2017\\
+\noindent \textbf{Biomedical Imaging Research Institute (BIRI)}\\
+[-0.6cm]
+\begin{itemize}\itemsep \isep
+	\item Adjusted the homogeneity of the magnetic field with shimming coils to improve MRI image quality. Analyzed magnetic data and reconstructed optimization function of calculating values of current. More than 20\% improvement in global shimming.
+	\item Reduced the number of shimming coils for cost reduction. Implemented principal component analysis(PCA) to optimize cardiac MR shimming coil design. Reduced 70\% of coils with a small increase(1.5\%) in standard deviation.
+	\item Optimized the shimming coil design with mathematical optimization. Built up a framework in Matlab to obtain the optimal solution with the genetic algorithm.
+	\end{itemize}
+
+\item \noindent \textbf{Research Assistant, Guangdong University of Technology}, Guangzhou, China \hfill 06/2013 - 06/2014\\
+[-0.6cm]
+\begin{itemize}\itemsep \isep
+	\item Generate Rayleigh and Nakagami-m distributions for system performance studies. Reproduced algorithm for generating bivariate Rayleigh and Nakagami-m distributed random variables(RVs). 
+	\item Optimized the original algorithm with Brent's method and Newton's method. Achieved about 80\% improvement in accuracy and 20\% in run-time performance.
+	\end{itemize}
+
+\end{itemize}
+
+%---------------------------- projects
+\resheading{SELECTED PROJECTS}\\[\lsep]
+\begin{itemize}
+
+\item \textbf{Cross-Device Entity Linking (CIKM Cup 2016)} \hfill 02/2017 - 03/2017\\[-0.6cm]
+	\begin{itemize}\itemsep \isep
+	\item Identified user's identity at device-level with user-generated data on different devices. Generated a list of user pairs that each pair were predicted to be the same person. Formulated this task as a binary classification problem, and trained a classifier with GBDT and random forest to distinguish true user pairs from possible user pairs.
+	\item Document representation with TF-IDF metric. Feature engineering with calculating cosine similarity, correlation coefficient and other statistics on URLs, HTML title, Event ID, and time stamps. Used a ratio of probabilities to evaluate the significance of different URLs.
+	\item Remedied class imbalance with down-sampling. Reduced the computational cost by using KNN algorithm to obtain a list of prospective candidate pairs.
+	\end{itemize}
+
+\item \textbf{PageRank with MapReduce} \hfill 02/2017 - 03/2017\\[-0.6cm]
+	\begin{itemize}\itemsep \isep
+	\item Realized PageRank algorithm on Wiki dataset. 
+	\item Transferred the relationship between each site into adjacency matrix. Computed the PageRank score based on adjacency matrix in Hadoop environment. Obtained sites' final ranks from converged PageRank scores.
+	\end{itemize}
+
+\item \textbf{Sequence Alignment} \hfill 10/2016 - 11/2016\\[-0.6cm]
+	\begin{itemize}\itemsep \isep
+	\item Derived the best global DNA/RNA sequence alignment path.
+	\item Modeled the sequence alignment problem as a three-state HMM with gap opening penalty and gap extension penalty. Implemented Viterbi dynamic programming algorithm in Python to find the best global alignment path.
+	\end{itemize}
+
+\item \textbf{IMDb Database Exploration} \hfill 05/2016 - 06/2016\\[-0.6cm]
+	\begin{itemize}\itemsep \isep
+	\item Explored the properties of actor/actress network and movie network.
+	\item Transferred the information from IMDb movie database into weighted directed graphs. Found communities with the Fast Greedy Newman algorithm. Predicted ratings of target movies with ratings of neighbor movies and same community movies. Added information about famous directors to improve model performance. The difference between predicted ratings and actual ratings are less than 1.5.
+	\end{itemize}
+
+\item \textbf{Popularity prediction on Twitter} \hfill 03/2016 - 04/2016\\[-0.6cm]
+	\begin{itemize}\itemsep \isep
+	\item Predicted tweet activity based on hashtags.
+	\item Analyzed and visualized the trends on Twitter by calculating statistics of tweets over different hashtags. Designed and completed feature engineering. Improved model performance by reselecting features with significant test(T-test). The accuracy varied from 74\% to 88\% for different hashtags.
+	\end{itemize}
+
+\item \textbf{Statistical classification. Classified textual data from 20 Newsgroups} \hfill 02/2016 - 03/2016\\[-0.6cm]
+	\begin{itemize}\itemsep \isep
+	\item Classified news documents into different groups.
+	\item Excluded stop words, punctuations and different stems of a word.
+	\item Implemented TFxIDF metric to evaluate terms. Used Latent Semantic Indexing(LSI) to project data into topic/theme domain. Trained classifier with soft margin SVM with an accuracy of 94\%.
+	\end{itemize}
+\end{itemize}
+
+%---------------------------- Honors
+\resheading{COURSE CERTIFICATES}\\[\lsep]
+\begin{itemize}
+\item Using Databases with Python by University of Michigan on Coursera. Certificate earned on January 21, 2017
+\item Using Python to Access Web Data by University of Michigan on Coursera. Certificate earned on January 11, 2017
+\item Python Data Structures by University of Michigan on Coursera. Certificate earned on December 26, 2016
+\end{itemize}
+
+%---------------------------- Honors
+\resheading{AWARDS AND HONORS}\\[\lsep]
+\begin{itemize}
+\item The Second Prize Scholarship (2013 \& 2014)
+\item The Provincial-level Second Prize of the 13th Challenge Cup Contest (2013)
+\item The Third Prize of SEMIKRON Scholarship (2013)
+\item Model Student of Academic Records(2012 \& 2014)
+\item National Scholarship (2012)
+\item The First Prize Scholarship (2012)
+\end{itemize}
+
+%---------------------------- 
+\resheading{REFERENCES}\\[\lsep]
+\\
+\\[-0.15cm]
+\indent \textbf{Director of Magnetic Resonance Engineering}\\
+\indent Department of Biomedical Imaging Research Institute, Cedars-Sinai Medical Center, Los Angeles, United States\\
+\indent Hui Han, Ph.D. \hfill hui.han@cshs.org
+
+\end{document}
+
