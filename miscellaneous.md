@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Welcome to personal page
+## Welcome to Miscellaneous page
 
 _yay_
 
