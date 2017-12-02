@@ -5,7 +5,6 @@
 \usepackage{url}
 \usepackage{helvet}
 \usepackage{tabularx}
-\usepackage{color}
 \selectfont
 
 \usepackage[T1]{fontenc}
@@ -48,10 +47,10 @@
 \resheading{EDUCATION}\\[\lsep]
 \begin{itemize}
 \item \noindent  \textbf{MSc, Electrical Engineering, University of California, Los Angeles}, United States \hfill 03/2017\\
-Area of Focus: Machine Learning, Optimization\\
+Major Field: Machine Learning \\
 Main Courses: Linear Programming, Pattern Recognition \& Machine Learning, Stats Programming.
 \item \noindent  \textbf{BEng, Automation, Guangdong University of Technology}, China \hfill 07/2015\\
-Area of Focus: Signal Processing, Optimization\\
+Major Fields: Signal Processing, Control \\
 Main Courses: Program Design, Discrete Mathematics, Data Structure, Signals and Linear Systems.
 \item \noindent  \textbf{Exchange Program, University of California, Berkeley}, United States \hfill Winter 2013
 \end{itemize}
@@ -60,7 +59,7 @@ Main Courses: Program Design, Discrete Mathematics, Data Structure, Signals and 
 \resheading{TECHNICAL SKILLS}\\[\lsep]
 \begin{itemize}
 \item \noindent \textbf{Basics:} Python, R, Matlab, SQL, Java, C/C++, Linux \hfill \textbf{Data:} MySQL, SQLite, HDFS, MapReduce\\
-\textbf{Toolkit:} Scikit-learn, Numpy, Pandas, NLTK, pickle, Matplotlib \hfill \textbf{Other:} Git, \LaTeX, Tableau, Microsoft Office
+\textbf{Toolkit:} Scikit-learn, Numpy, Pandas, NLTK, Matplotlib \hfill \textbf{Other:} Git, \LaTeX, Tableau, Microsoft Office
 \end{itemize}
 
 %-------------------------- Research Experience
@@ -70,15 +69,15 @@ Main Courses: Program Design, Discrete Mathematics, Data Structure, Signals and 
 \noindent \textbf{Biomedical Imaging Research Institute (BIRI)}\\
 [-0.6cm]
 \begin{itemize}\itemsep \isep
-	\item Adjusted the homogeneity of the magnetic field with shimming coils to improve MRI image quality. Analyzed magnetic data and reconstructed optimization function of calculating values of current. More than 20\% improvement in global shimming.
+	\item Adjusted the homogeneity of the magnetic field with shimming coils to improve MR image quality. Analyzed magnetic data and reconstructed optimization function of calculating values of current. More than 20\% improvement in global shimming.
 	\item Reduced the number of shimming coils for cost reduction. Implemented principal component analysis(PCA) to optimize cardiac MR shimming coil design. Reduced 70\% of coils with a small increase(1.5\%) in standard deviation.
-	\item Optimized the shimming coil design with mathematical optimization. Built up a framework in Matlab to obtain the optimal solution with the genetic algorithm.
+	\item  Generated optimal shimming coil designs with mathematical optimization for different needs. Built up a framework in Matlab to obtain optimal solutions with the genetic algorithm.
 	\end{itemize}
 
 \item \noindent \textbf{Research Assistant, Guangdong University of Technology}, Guangzhou, China \hfill 06/2013 - 06/2014\\
 [-0.6cm]
 \begin{itemize}\itemsep \isep
-	\item Generate Rayleigh and Nakagami-m distributions for system performance studies. Reproduced algorithm for generating bivariate Rayleigh and Nakagami-m distributed random variables(RVs). 
+	\item Generated Rayleigh and Nakagami-m distributions for system performance studies. Implemented algorithm for generating bivariate Rayleigh and Nakagami-m distributed random variables(RVs) in Matlab. 
 	\item Optimized the original algorithm with Brent's method and Newton's method. Achieved about 80\% improvement in accuracy and 20\% in run-time performance.
 	\end{itemize}
 
@@ -90,9 +89,9 @@ Main Courses: Program Design, Discrete Mathematics, Data Structure, Signals and 
 
 \item \textbf{Cross-Device Entity Linking (CIKM Cup 2016)} \hfill 02/2017 - 03/2017\\[-0.6cm]
 	\begin{itemize}\itemsep \isep
-	\item Identified user's identity at device-level with user-generated data on different devices. Generated a list of user pairs that each pair were predicted to be the same person. Formulated this task as a binary classification problem, and trained a classifier with GBDT and random forest to distinguish true user pairs from possible user pairs.
-	\item Document representation with TF-IDF metric. Feature engineering with calculating cosine similarity, correlation coefficient and other statistics on URLs, HTML title, Event ID, and time stamps. Used a ratio of probabilities to evaluate the significance of different URLs.
-	\item Remedied class imbalance with down-sampling. Reduced the computational cost by using KNN algorithm to obtain a list of prospective candidate pairs.
+	\item Identified user's identity at device-level with user-generated data from different devices. Generated a list of user pairs that each pair were predicted to be the same person. Formulated this task as a binary classification problem, and trained a classifier with GBDT and random forest to distinguish true user pairs from possible user pairs.
+	\item Document representation with TF-IDF metric. Feature engineering with calculating cosine similarity, correlation coefficient and other statistics on URLs, HTML title, Event ID, and time stamps. Gained fine-grained features by evaluating the significance of different URLs.
+	\item Remedied data imbalance with down-sampling. Reduced the computational cost by performing candidate filtering with k nearest neighbors.
 	\end{itemize}
 
 \item \textbf{PageRank with MapReduce} \hfill 02/2017 - 03/2017\\[-0.6cm]
@@ -110,20 +109,20 @@ Main Courses: Program Design, Discrete Mathematics, Data Structure, Signals and 
 \item \textbf{IMDb Database Exploration} \hfill 05/2016 - 06/2016\\[-0.6cm]
 	\begin{itemize}\itemsep \isep
 	\item Explored the properties of actor/actress network and movie network.
-	\item Transferred the information from IMDb movie database into weighted directed graphs. Found communities with the Fast Greedy Newman algorithm. Predicted ratings of target movies with ratings of neighbor movies and same community movies. Added information about famous directors to improve model performance. The difference between predicted ratings and actual ratings are less than 1.5.
+	\item Transferred the information from IMDb movie database into weighted directed graphs. Found communities with the Fast Greedy Newman algorithm. Predicted ratings of target movies with ratings of neighbor movies and same community movies. Added famous directors as new feature to improve model performance. The difference between predicted ratings and actual ratings are less than 1.5.
 	\end{itemize}
 
 \item \textbf{Popularity prediction on Twitter} \hfill 03/2016 - 04/2016\\[-0.6cm]
 	\begin{itemize}\itemsep \isep
 	\item Predicted tweet activity based on hashtags.
-	\item Analyzed and visualized the trends on Twitter by calculating statistics of tweets over different hashtags. Designed and completed feature engineering. Improved model performance by reselecting features with significant test(T-test). The accuracy varied from 74\% to 88\% for different hashtags.
+	\item Analyzed and visualized trends on Twitter by calculating statistics of tweets over different hashtags. Feature engineering. Improved model performance by reselecting features with significant test(T-test). The accuracy varied from 74\% to 88\% for different hashtags.
 	\end{itemize}
 
 \item \textbf{Statistical classification. Classified textual data from 20 Newsgroups} \hfill 02/2016 - 03/2016\\[-0.6cm]
 	\begin{itemize}\itemsep \isep
-	\item Classified news documents into different groups.
+	\item Text categorization on 20 Newsgroups data set.
 	\item Excluded stop words, punctuations and different stems of a word.
-	\item Implemented TFxIDF metric to evaluate terms. Used Latent Semantic Indexing(LSI) to project data into topic/theme domain. Trained classifier with soft margin SVM with an accuracy of 94\%.
+	\item Implemented TFxIDF metric to represent documents. Used Latent Semantic Indexing(LSI) to project data into topic/theme domain. Trained classifier with soft margin SVM with an accuracy of 94\%.
 	\end{itemize}
 \end{itemize}
 
