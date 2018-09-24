@@ -4,7 +4,7 @@ layout: default
 
 &nbsp;
 
-## [](#header-2)Welcome to my page.
+## [](#header-2)Welcome to my page!
 
 * * *
 
@@ -16,7 +16,7 @@ I obtained my MSc. in [Electrical Engineering](http://www.ee.ucla.edu) from the 
 
 You can find the details of my background and selected projects in my [CV](https://drive.google.com/file/d/1WrUP6CYiQDBz3Hu7mFQYu6_Bj6uq9XaH/view?usp=sharing)(will update soon).
 
-## [](#header-2)Courses.
+## [](#header-2)Courses:
 
 * * *
 
