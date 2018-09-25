@@ -4,6 +4,13 @@ layout: default
 
 &nbsp;
 
+## Work Experience
+
+- HUAWEI TECHNOLOGIES CO., LTD., Shenzhen, China 03/2018 - now
+    - Software Engineer, Network Product Line
+- Cedars-Sinai Medical Center, Los Angeles, United States 07/2016 - 03/2017
+    - Research Associate, Biomedical Imaging Research Institute (BIRI)
+
 ## School Projects
 
 - Graduate (UCLA)
@@ -28,17 +35,17 @@ layout: default
     - Academic Records Management System Design
 
 ## COURSE CERTIFICATES
-    - Using Databases with Python by University of Michigan on Coursera. (01/21/2017)
-    - Using Python to Access Web Data by University of Michigan on Coursera. (01/11/2017)
-    - Python Data Structures by University of Michigan on Coursera. (12/26/2016)
+- Using Databases with Python by University of Michigan on Coursera. (01/21/2017)
+- Using Python to Access Web Data by University of Michigan on Coursera. (01/11/2017)
+- Python Data Structures by University of Michigan on Coursera. (12/26/2016)
 
 ## AWARDS AND HONORS
-    - The Second Prize Scholarship (2013 & 2014)
-    - The Provincial-level Second Prize of the 13th Challenge Cup Contest (2013)
-    - The Third Prize of SEMIKRON Scholarship (2013)
-    - Model Student of Academic Records(2012 \& 2014)
-    - National Scholarship (2012)
-    - The First Prize Scholarship (2012)
+- The Second Prize Scholarship (2013 & 2014)
+- The Provincial-level Second Prize of the 13th Challenge Cup Contest (2013)
+- The Third Prize of SEMIKRON Scholarship (2013)
+- Model Student of Academic Records(2012 \& 2014)
+- National Scholarship (2012)
+- The First Prize Scholarship (2012)
 
 
 [back](./index)
