@@ -14,7 +14,7 @@ I received an Excelent(Top 10% in HUAWEI) in my probation appraisal. And I am le
 
 I obtained my MSc. in [Electrical Engineering](http://www.ee.ucla.edu) from the University of California, Los Angeles ([UCLA](http://www.ucla.edu)) in March 2017. During July 2016 to March 2017, I worked as a research associate in MR(Magnetic Resonance) Engineering Laboratory ([Han Laboratory](https://www.cedars-sinai.edu/Research/Research-Labs/Han-Lab/)), affiliated with Biomedical Imaging Research Institute ([BIRI](https://www.cedars-sinai.edu/Research/Departments-and-Institutes/Biomedical-Imaging-Research-Institute/)) at [Cedars-Sinai Medical Center](https://www.cedars-sinai.org), Los Angeles. 
 
-You can find the details of my background and selected projects in my [CV](https://drive.google.com/file/d/1WrUP6CYiQDBz3Hu7mFQYu6_Bj6uq9XaH/view?usp=sharing)(will update soon).
+You can find the details of my background and selected projects in my [CV](https://drive.google.com/file/d/1eBOg05F3bDipkEU1J-7PHuf8fSsOAIKX/view?usp=sharing)(Continually updated).
 
 ## [](#header-2)Courses:
 
