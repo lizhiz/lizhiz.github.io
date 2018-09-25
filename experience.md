@@ -6,10 +6,10 @@ layout: default
 
 ## Work Experience
 
-- HUAWEI TECHNOLOGIES CO., LTD., Shenzhen, China (03/2018 - now)
-    - Software Engineer, Network Product Line
-- Cedars-Sinai Medical Center, Los Angeles, United States (07/2016 - 03/2017)
-    - Research Associate, Biomedical Imaging Research Institute (BIRI)
+- HUAWEI TECHNOLOGIES CO., LTD., Shenzhen, China
+    - Software Engineer (03/2018 - now)
+- Cedars-Sinai Medical Center, Los Angeles, United States
+    - Research Associate (07/2016 - 03/2017)
 
 ## School Projects
 
