@@ -46,39 +46,45 @@
 %------------------------ Education
 \resheading{EDUCATION}\\[\lsep]
 \begin{itemize}
-\item \noindent  \textbf{MSc, Electrical Engineering, University of California, Los Angeles}, United States \hfill 03/2017\\
-Major Field: Machine Learning \\
-Main Courses: Linear Programming, Pattern Recognition \& Machine Learning, Stats Programming.
-\item \noindent  \textbf{BEng, Electrical Information, Guangdong University of Technology}, China \hfill 07/2015\\
-Major Fields: Signal Processing, Control \\
-Main Courses: Program Design, Discrete Mathematics, Data Structure, Signals and Linear Systems.
-\item \noindent  \textbf{Exchange Program, University of California, Berkeley}, United States \hfill Winter 2013
+\item \noindent  \textbf{MSc, Electrical Engineering, University of California, Los Angeles}, United States \hfill 03/2017
+\item \noindent  \textbf{BEng, Electrical Information, Guangdong University of Technology}, China \hfill 07/2015
+\item \noindent  \textbf{Exchange Program, University of California, Berkeley}, United States \hfill 02/2013
 \end{itemize}
 
 %------------------------- Skills
 \resheading{TECHNICAL SKILLS}\\[\lsep]
 \begin{itemize}
-\item \noindent \textbf{Basics:} Python, R, Matlab, SQL, Java, C/C++, Linux \hfill \textbf{Data:} MySQL, SQLite, HDFS, MapReduce\\
-\textbf{Toolkit:} Scikit-learn, Numpy, Pandas, NLTK, Matplotlib \hfill \textbf{Other:} Git, \LaTeX, Tableau, Microsoft Office
+\item \noindent \textbf{Basics:} Java, Python, SQL, C/C++, git, Linux \hfill \textbf{Big Data:} Hadoop, Spark, Oozie\\
+\textbf{Other:} R, Matlab, \LaTeX , RESTful, JSON \hfill \textbf{Document:} Tableau, Microsoft Office
 \end{itemize}
 
 %-------------------------- Research Experience
-\resheading{RESEARCH EXPERIENCES}\\[\lsep]
+\resheading{EXPERIENCES}\\[\lsep]
 \begin{itemize}
-\item \noindent \textbf{Research Associate, Cedars-Sinai Medical Center}, Los Angeles, United States \hfill 07/2016 - 03/2017\\
-\noindent \textbf{Biomedical Imaging Research Institute (BIRI)}\\
-[-0.6cm]
-\begin{itemize}\itemsep \isep
-	\item Adjusted the homogeneity of the magnetic field with shimming coils to improve MR image quality. Analyzed magnetic data and reconstructed optimization function of calculating values of current. More than 20\% improvement in global shimming.
-	\item Reduced the number of shimming coils for cost reduction. Implemented principal component analysis(PCA) to optimize cardiac MR shimming coil design. Reduced 70\% of coils with a small increase(1.5\%) in standard deviation.
-	\item  Generated optimal shimming coil designs with mathematical optimization for different needs. Built up a framework in Matlab to obtain optimal solutions with the genetic algorithm.
-	\end{itemize}
 
-\item \noindent \textbf{Research Assistant, Guangdong University of Technology}, Guangzhou, China \hfill 06/2013 - 06/2014\\
-[-0.6cm]
+\item \noindent \textbf{Software Engineer, HUAWEI TECHNOLOGIES CO., LTD.}, Shenzhen, China \hfill 03/2018 - now\\
+\noindent \textbf{Network Product Line}\\[-0.6cm]
 \begin{itemize}\itemsep \isep
-	\item Generated Rayleigh and Nakagami-m distributions for system performance studies. Implemented algorithm for generating bivariate Rayleigh and Nakagami-m distributed random variables(RVs) in Matlab. 
-	\item Optimized the original algorithm with Brent's method and Newton's method. Achieved about 80\% improvement in accuracy and 20\% in run-time performance.
+	\item Developed feature of Use Cases: 
+		\begin{itemize}\itemsep \isep
+			\item Wi-Fi Tune Up: Gateway busy/idle time identification.
+			\item APP distinguish: APP type classification.
+			\item PON diagnosis: Device data aggregation.
+		\end{itemize}
+	\item Developed micro-services for tenant management of Operation and Maintenance System.
+	\item Reconstructed common algorithms and use case algorithms.
+	\item Developed efficiency improvement tool.
+\end{itemize}
+
+\item \noindent \textbf{Research Associate, Cedars-Sinai Medical Center}, Los Angeles, United States \hfill 07/2016 - 03/2017\\
+\noindent \textbf{Biomedical Imaging Research Institute (BIRI)}\\[-0.6cm]
+\begin{itemize}\itemsep \isep
+	\item Optimized MRI quality with convex optimization and machine learning techniques(PCA \& genetic algorithm).
+\end{itemize}
+
+\item \noindent \textbf{Research Assistant, Guangdong University of Technology}, Guangzhou, China \hfill 06/2013 - 06/2014\\[-0.6cm]
+\begin{itemize}\itemsep \isep
+	\item Optimized the generation method of Rayleigh and Nakagami-m distributions with Brent's method and Newton's method. 
 	\end{itemize}
 
 \end{itemize}
@@ -89,60 +95,13 @@ Main Courses: Program Design, Discrete Mathematics, Data Structure, Signals and 
 
 \item \textbf{Cross-Device Entity Linking (CIKM Cup 2016)} \hfill 02/2017 - 03/2017\\[-0.6cm]
 	\begin{itemize}\itemsep \isep
-	\item Identified user's identity at device-level with user-generated data from different devices. Generated a list of user pairs that each pair were predicted to be the same person. Formulated this task as a binary classification problem, and trained a classifier with GBDT and random forest to distinguish true user pairs from possible user pairs.
-	\item Document representation with TF-IDF metric. Feature engineering with calculating cosine similarity, correlation coefficient and other statistics on URLs, HTML title, Event ID, and time stamps. Gained fine-grained features by evaluating the significance of different URLs.
-	\item Remedied data imbalance with down-sampling. Reduced the computational cost by performing candidate filtering with k nearest neighbors.
-	\end{itemize}
-
-\item \textbf{PageRank with MapReduce} \hfill 02/2017 - 03/2017\\[-0.6cm]
-	\begin{itemize}\itemsep \isep
-	\item Realized PageRank algorithm on Wiki dataset. 
-	\item Transferred the relationship between each site into adjacency matrix. Computed the PageRank score based on adjacency matrix in Hadoop environment. Obtained sites' final ranks from converged PageRank scores.
-	\end{itemize}
-
-\item \textbf{Sequence Alignment} \hfill 10/2016 - 11/2016\\[-0.6cm]
-	\begin{itemize}\itemsep \isep
-	\item Derived the best global DNA/RNA sequence alignment path.
-	\item Modeled the sequence alignment problem as a three-state HMM with gap opening penalty and gap extension penalty. Implemented Viterbi dynamic programming algorithm in Python to find the best global alignment path.
-	\end{itemize}
-
-\item \textbf{IMDb Database Exploration} \hfill 05/2016 - 06/2016\\[-0.6cm]
-	\begin{itemize}\itemsep \isep
-	\item Explored the properties of actor/actress network and movie network.
-	\item Transferred the information from IMDb movie database into weighted directed graphs. Found communities with the Fast Greedy Newman algorithm. Predicted ratings of target movies with ratings of neighbor movies and same community movies. Added famous directors as new feature to improve model performance. The difference between predicted ratings and actual ratings are less than 1.5.
+	\item Identified user's identity at device-level with user-generated data from different devices. 
 	\end{itemize}
 
 \item \textbf{Popularity prediction on Twitter} \hfill 03/2016 - 04/2016\\[-0.6cm]
 	\begin{itemize}\itemsep \isep
 	\item Predicted tweet activity based on hashtags.
-	\item Analyzed and visualized trends on Twitter by calculating statistics of tweets over different hashtags. Feature engineering. Improved model performance by reselecting features with significant test(T-test). The accuracy varied from 74\% to 88\% for different hashtags.
 	\end{itemize}
-
-\item \textbf{Statistical classification. Classified textual data from 20 Newsgroups} \hfill 02/2016 - 03/2016\\[-0.6cm]
-	\begin{itemize}\itemsep \isep
-	\item Text categorization on 20 Newsgroups data set.
-	\item Excluded stop words, punctuations and different stems of a word.
-	\item Implemented TFxIDF metric to represent documents. Used Latent Semantic Indexing(LSI) to project data into topic/theme domain. Trained classifier with soft margin SVM with an accuracy of 94\%.
-	\end{itemize}
-\end{itemize}
-
-%---------------------------- Honors
-\resheading{COURSE CERTIFICATES}\\[\lsep]
-\begin{itemize}
-\item Using Databases with Python by University of Michigan on Coursera. Certificate earned on January 21, 2017
-\item Using Python to Access Web Data by University of Michigan on Coursera. Certificate earned on January 11, 2017
-\item Python Data Structures by University of Michigan on Coursera. Certificate earned on December 26, 2016
-\end{itemize}
-
-%---------------------------- Honors
-\resheading{AWARDS AND HONORS}\\[\lsep]
-\begin{itemize}
-\item The Second Prize Scholarship (2013 \& 2014)
-\item The Provincial-level Second Prize of the 13th Challenge Cup Contest (2013)
-\item The Third Prize of SEMIKRON Scholarship (2013)
-\item Model Student of Academic Records(2012 \& 2014)
-\item National Scholarship (2012)
-\item The First Prize Scholarship (2012)
 \end{itemize}
 
 %---------------------------- 

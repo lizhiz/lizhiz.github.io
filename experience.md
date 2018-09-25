@@ -4,7 +4,7 @@ layout: default
 
 &nbsp;
 
-## Project Experience (Full List)
+## School Projects
 
 - Graduate (UCLA)
     - Next Generation MRI Scanner Coil Technology
@@ -26,5 +26,19 @@ layout: default
     - Breathing Light Design
     - Piezoelectric Speaker Design
     - Academic Records Management System Design
+
+## COURSE CERTIFICATES
+    - Using Databases with Python by University of Michigan on Coursera. (01/21/2017)
+    - Using Python to Access Web Data by University of Michigan on Coursera. (01/11/2017)
+    - Python Data Structures by University of Michigan on Coursera. (12/26/2016)
+
+## AWARDS AND HONORS
+    - The Second Prize Scholarship (2013 & 2014)
+    - The Provincial-level Second Prize of the 13th Challenge Cup Contest (2013)
+    - The Third Prize of SEMIKRON Scholarship (2013)
+    - Model Student of Academic Records(2012 \& 2014)
+    - National Scholarship (2012)
+    - The First Prize Scholarship (2012)
+
 
 [back](./index)
