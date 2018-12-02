@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  22 OCT 2018 22:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  2 DEC 2018 15:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -475,96 +475,150 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 49.
 
-Overfull \hbox (4.6532pt too wide) in paragraph at lines 55--56
+Overfull \hbox (4.6532pt too wide) in paragraph at lines 57--58
 [][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+
+ []
+
+
+Overfull \hbox (4.6532pt too wide) in paragraph at lines 64--65
+[][][][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--69
 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 58.
+(Font)              <7> on input line 70.
 
-Overfull \hbox (4.6532pt too wide) in paragraph at lines 62--63
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+
+ []
+
+
+Overfull \hbox (4.80536pt too wide) in paragraph at lines 84--85
+[]\T1/cmr/m/n/10 Reproduced the al-go-rithm for gen-er-at-ing bi-vari-ate Rayle
+igh and Nakagami-m dis-tributed ran-dom vari-ables(RVs). 
+ []
+
+
+Overfull \hbox (4.6532pt too wide) in paragraph at lines 92--93
 [][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--67
+Underfull \hbox (badness 10000) in paragraph at lines 95--97
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--81
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
-
- []
-
-
-Overfull \hbox (4.6532pt too wide) in paragraph at lines 93--94
+Overfull \hbox (4.6532pt too wide) in paragraph at lines 110--111
 [][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
-
- []
-
-
-Overfull \hbox (4.6532pt too wide) in paragraph at lines 108--114
-[][][][][][][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 108--114
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
 
  []
 
 [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./Resume_LizhiZeng.aux) ) 
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+
+ []
+
+
+Overfull \hbox (4.6532pt too wide) in paragraph at lines 140--141
+[][][][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+
+ []
+
+
+Overfull \hbox (4.6532pt too wide) in paragraph at lines 149--150
+[][][][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
+
+ []
+
+
+Overfull \hbox (4.6532pt too wide) in paragraph at lines 164--175
+[][][][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--175
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--175
+
+ []
+
+[2] (./Resume_LizhiZeng.aux) ) 
 Here is how much of TeX's memory you used:
- 2626 strings out of 493089
- 35537 string characters out of 6134842
- 105029 words of memory out of 5000000
- 6068 multiletter control sequences out of 15000+600000
- 10857 words of font info for 27 fonts, out of 8000000 for 9000
+ 2624 strings out of 493089
+ 35517 string characters out of 6134842
+ 106029 words of memory out of 5000000
+ 6067 multiletter control sequences out of 15000+600000
+ 10089 words of font info for 26 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,5n,23p,244b,223s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/c
-m-super/cm-super-t1.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/c
-m-super/sfbx0900.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-
-super/sfbx1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-su
-per/sfbx2488.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-supe
-r/sfrm0700.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/
-sfrm1000.pfb>
-Output written on Resume_LizhiZeng.pdf (1 page, 69208 bytes).
+ 38i,5n,23p,391b,244s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvi
+ps/cm-super/cm-super-t1.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publ
+ic/cm-super/sfbx0900.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
+/cm-super/sfbx1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/c
+m-super/sfbx2488.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-
+super/sfrm1000.pfb>
+Output written on Resume_LizhiZeng.pdf (2 pages, 73036 bytes).
 PDF statistics:
- 33 PDF objects out of 1000 (max. 8388607)
- 23 compressed objects within 1 object stream
+ 32 PDF objects out of 1000 (max. 8388607)
+ 22 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
