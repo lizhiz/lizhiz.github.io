@@ -8,7 +8,7 @@ layout: default
 
 * * *
 
-I am a software engineer in the BDA team, affiliated with NCE(Network Cloud Engine) department at [HUAWEI TECHNOLOGIES CO., LTD.](http://www.huawei.com/en/) The project we are working on is [Premium Broadband](https://carrier.huawei.com/en/spotlight/premium-home-broadband-enables-business-success). You can know more about our project from [UBBF 2018](https://www.huawei.com/uk/press-events/events/ubbf-2018?ic_medium=hwdc&ic_source=corp_event3_ubbf2018).
+I am a software engineer of the R&D team, affiliated with Network Cloud Engine(NCE) department at [HUAWEI TECHNOLOGIES CO., LTD.](http://www.huawei.com/en/) The project we are working on is [Premium Broadband](https://carrier.huawei.com/en/spotlight/premium-home-broadband-enables-business-success). You can know more about our project from [UBBF 2018](https://www.huawei.com/uk/press-events/events/ubbf-2018?ic_medium=hwdc&ic_source=corp_event3_ubbf2018).
 
 I received an Excellent(Top 10% in HUAWEI) in my probation appraisal. Also, I am leading a new project in building automatic verification system with thoughts and technologies in big data. I am also seeking opportunities to pursue a Ph.D. degree, specialized in machine learning.
 
