@@ -40,12 +40,13 @@ layout: default
 - Python Data Structures by University of Michigan on Coursera. (12/26/2016)
 
 ## AWARDS AND HONORS
-- The Second Prize Scholarship (2013 & 2014)
-- The Provincial-level Second Prize of the 13th Challenge Cup Contest (2013)
+- Excellent in probation appraisal at Huawei Technologies (2018)
+- The Second Prize Scholarship of Guangdong University of Technology (2013 & 2014)
+- The Provincial-level Second Prize of the 13th Challenge Cup Contest in China (2013)
 - The Third Prize of SEMIKRON Scholarship (2013)
-- Model Student of Academic Records(2012 \& 2014)
-- National Scholarship (2012)
-- The First Prize Scholarship (2012)
+- Model Student of Academic Records of Guangdong University of Technology (2012 \& 2014)
+- National Scholarship of China (2012)
+- The First Prize Scholarship of Guangdong University of Technology (2012)
 
 
 [back](./index)
